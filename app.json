@@ -1,0 +1,56 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/read/read",
+    "pages/search/search",
+    "pages/moretools/moretools",
+    "pages/info/info",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#0094ff",
+    "navigationBarTitleText": "leekari",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh":true,
+    "backgroundColor":"white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icon/1-1.png",
+        "selectedIconPath": "icon/1-2.png"
+      },
+      {
+        "pagePath": "pages/read/read",
+        "text": "阅读",
+        "iconPath": "icon/3-1.png",
+        "selectedIconPath": "icon/3-2.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "搜索",
+        "iconPath": "icon/4-2.png",
+        "selectedIconPath": "icon/4-1.png"
+      },
+      {
+        "pagePath": "pages/moretools/moretools",
+        "text": "更多工具",
+        "iconPath": "icon/5-2.png",
+        "selectedIconPath": "icon/5-1.png"
+      },
+      {
+        "pagePath": "pages/info/info",
+        "text": "个人信息",
+        "iconPath": "icon/2-1.png",
+        "selectedIconPath": "icon/2-2.png"
+      }
+  ],
+  "color": "#0094ff",
+  "selectedColor": "#ff9400"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
